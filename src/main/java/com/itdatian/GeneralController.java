@@ -14,6 +14,7 @@ public class GeneralController {
 		String temp = "测试完成";
 		if(StringUtils.isNotBlank(temp)){
 			System.out.println("测试第三方包：" + temp);
+			System.out.println("再次测试第三方包：" + temp);
 		}
 		
 		model.addAttribute("liming", "黎明你好");
