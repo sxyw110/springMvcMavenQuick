@@ -11,9 +11,9 @@ public class GeneralController {
 
 	@RequestMapping(value="index")
 	public String index_jsp(Model model){
-		String temp = "測試";
+		String temp = "测试完成";
 		if(StringUtils.isNotBlank(temp)){
-			System.out.println(temp);
+			System.out.println("测试第三方包：" + temp);
 		}
 		
 		model.addAttribute("liming", "黎明你好");
