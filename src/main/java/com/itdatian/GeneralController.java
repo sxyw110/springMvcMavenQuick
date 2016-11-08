@@ -15,7 +15,7 @@ public class GeneralController {
 		if(StringUtils.isNotBlank(temp)){
 			System.out.println("测试第三方包：" + temp);
 			System.out.println("测试第4方包：" + temp);
-			System.out.println("测试第18方包：" + temp);
+			System.out.println("测试第45方包：" + temp);
 		}
 		
 		model.addAttribute("liming", "黎明你好");
